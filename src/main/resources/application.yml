@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      name: library-service
+  config:
+    import: configserver:http://localhost:8888
